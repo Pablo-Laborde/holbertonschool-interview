@@ -4,8 +4,6 @@
 
 def canUnlockAll(boxes):
     import sys
-
-
     sys.setrecursionlimit(10**6)
     length = len(boxes)
     rv = True
