@@ -35,7 +35,7 @@ heap_t *heap_insert(heap_t **root, int value);
 heap_t *create_node(int value);
 
 
-void sas(heap_t *beg);
+heap_t *sas(heap_t *beg);
 
 
 void insert_in_pos(heap_t **head, heap_t *a, heap_t *nn, int pos);

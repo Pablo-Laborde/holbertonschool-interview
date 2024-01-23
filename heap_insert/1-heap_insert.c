@@ -10,7 +10,7 @@
 heap_t *heap_insert(heap_t **root, int value)
 {
 	static int apos = 0; 
-	heap_t *nn = NULL, *head = *root, *parent = NULL;
+	heap_t *nn = NULL, *head = *root, *parent = NULL, *rr = NULL;
 
 	if (root)
 	{
@@ -26,13 +26,13 @@ heap_t *heap_insert(heap_t **root, int value)
 				else
 					parent->left = nn;
 				nn->parent = parent;
-				sas(nn);
 			}
 			else
 				*root = nn;
+			rr = sas(nn);
 		}
 	}
-	return (nn);
+	return (rr);
 }
 
 
@@ -62,7 +62,7 @@ heap_t *create_node(int value)
 * @beg: heap_t*
 * Return: void
 */
-void sas(heap_t *beg)
+heap_t *sas(heap_t *beg)
 {
 	heap_t *aux = beg->parent;
 	int naux = 0;
@@ -73,8 +73,9 @@ void sas(heap_t *beg)
 			naux = beg->n;
 			beg->n = 	aux->n;
 			aux->n = naux;
-			sas(aux);
+			return sas(aux);
 		}
+	return (beg);
 }
 
 
