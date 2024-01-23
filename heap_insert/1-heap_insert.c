@@ -20,7 +20,10 @@ heap_t *heap_insert(heap_t **root, int value)
 			if (head)
 			{
 				parent = pp(root, apos / 2);
-				(apos % 2) ? parent->right = nn : parent->left = nn;
+				if (apos % 2)
+					parent->right = nn;
+				else
+					parent->left = nn;
 				sas(nn);
 			}
 			else
@@ -121,9 +124,9 @@ heap_t *pp(heap_t **root, int pos)
 	heap_t *aux = NULL;
 
 	if (pos > 1)
-		aux = pos_pointer(head, pos / 2);
+		aux = pp(root, pos / 2);
 	else
-		return (*head);
+		return (*root);
 	if (pos % 2)
 		return (aux->right);
 	else
