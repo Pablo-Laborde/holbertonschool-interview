@@ -116,7 +116,7 @@ void insert_in_pos(heap_t **head, heap_t *a, heap_t *nn, int pos)
 * @pos: int
 * Return: head_t*
 */
-head_t *pp(head_t **root, int pos)
+heap_t *pp(head_t **root, int pos)
 {
 	heap_t *aux = NULL;
 
