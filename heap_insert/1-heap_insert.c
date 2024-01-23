@@ -68,10 +68,10 @@ void sas(heap_t *beg)
 	int naux = 0;
 
 	if (aux)
-		if (beg->n < aux->n)
+		if (beg->n > aux->n)
 		{
 			naux = beg->n;
-			beg->n = aux->n;
+			beg->n = 	aux->n;
 			aux->n = naux;
 			sas(aux);
 		}
