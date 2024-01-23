@@ -58,7 +58,7 @@ heap_t *create_node(int value)
 
 
 /**
-* ss- function
+* sas- function
 * @beg: heap_t*
 * Return: void
 */
@@ -80,7 +80,7 @@ heap_t *sas(heap_t *beg)
 
 
 /**
-* max_per_lvl- function
+* insert_in_pos- function
 * @head: heap_t**
 * @a: heap_t*
 * @nn: heap_t*
