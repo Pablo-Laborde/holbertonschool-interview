@@ -25,6 +25,7 @@ heap_t *heap_insert(heap_t **root, int value)
 					parent->right = nn;
 				else
 					parent->left = nn;
+				nn->parent = parent;
 				sas(nn);
 			}
 			else
