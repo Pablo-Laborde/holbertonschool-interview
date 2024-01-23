@@ -40,7 +40,7 @@ void sas(heap_t *beg);
 void insert_in_pos(heap_t **head, heap_t *a, heap_t *nn, int pos);
 
 
-heap_t *pp(head_t **root, int pos);
+heap_t *pp(heap_t **root, int pos);
 
 
 #endif
