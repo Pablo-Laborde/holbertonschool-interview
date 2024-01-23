@@ -9,7 +9,7 @@
 */
 heap_t *heap_insert(heap_t **root, int value)
 {
-	static int apos = 1; 
+	static int apos = 0; 
 	heap_t *nn = NULL, *head = *root, *parent = NULL;
 
 	if (root)
@@ -17,6 +17,7 @@ heap_t *heap_insert(heap_t **root, int value)
 		nn = create_node(value);
 		if (nn)
 		{
+			apos++;
 			if (head)
 			{
 				parent = pp(root, apos / 2);
