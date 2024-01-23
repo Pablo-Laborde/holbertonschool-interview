@@ -9,7 +9,7 @@
 */
 heap_t *heap_insert(heap_t **root, int value)
 {
-	static int apos = 0; 
+	static int apos;
 	heap_t *nn = NULL, *head = *root, *parent = NULL, *rr = NULL;
 
 	if (root)
@@ -71,9 +71,9 @@ heap_t *sas(heap_t *beg)
 		if (beg->n > aux->n)
 		{
 			naux = beg->n;
-			beg->n = 	aux->n;
+			beg->n = aux->n;
 			aux->n = naux;
-			return sas(aux);
+			return (sas(aux));
 		}
 	return (beg);
 }
