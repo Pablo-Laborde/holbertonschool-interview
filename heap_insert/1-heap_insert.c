@@ -108,6 +108,7 @@ void insert_in_pos(heap_t **head, heap_t *a, heap_t *nn, int pos)
 				b = a->left;
 				a->left = nn;
 			}
+			(void)b;
 		}
 	}
 }
