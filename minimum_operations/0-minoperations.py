@@ -5,6 +5,7 @@
 def minOperations(n):
     """ function """
     import math
+
     if (n > 1):
         sr = int(math.sqrt(n))
         mlo = sr
