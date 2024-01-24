@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" ex 0 """
+"""ex 0 , does this need more words?"""
 
 
 def minOperations(n):
