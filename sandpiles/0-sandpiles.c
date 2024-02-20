@@ -11,13 +11,12 @@ void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 {
 	int i, j;
 
-	print_sum_sp(grid1, grid2);
+	
 	for (i = 0; i< 3; i++)
 		for (j = 0; j < 3; j++)
 			grid1[i][j] += grid2[i][j];
-	do {
-		printf("=\n");
-	} while (toppling(grid1));
+	while (toppling(grid1))
+	{}
 }
 
 /**
@@ -45,7 +44,6 @@ int toppling(int grid[3][3])
 								flag = 1;
 						}
 			}
-	print_sp(grid);
 	return (flag);
 }
 
