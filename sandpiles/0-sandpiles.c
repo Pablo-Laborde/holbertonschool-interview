@@ -9,14 +9,16 @@
 */
 void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 {
-	int i, j;
+	int i, j, flag, nf;
 
-	
-	for (i = 0; i< 3; i++)
-		for (j = 0; j < 3; j++)
-			grid1[i][j] += grid2[i][j];
-	while (toppling(grid1))
-	{}
+	flag = sum(grid1, grid2);
+	while (flag)
+	{
+		printf("=\n");
+		print_sp(grid1);
+		nf = toppling(grid1);
+		flag = nf;
+	}
 }
 
 /**
@@ -24,26 +26,49 @@ void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 * @grid: int **
 * Return: int
 */
-int toppling(int grid[3][3])
+int toppling(int grid1[3][3])
 {
 	int	flag, i, j, m, n;
+	int ga[3][3] = {
+        {0, 0, 0},
+        {0, 0, 0},
+        {0, 0, 0}
+    };
 
 	flag = 0;
 	for (i = 0; i < 3; i++)
 		for (j = 0; j < 3; j++)
-			if (grid[i][j] > 3)
+			if (grid1[i][j] > 3)
 			{
-				grid[i][j] -= 4;
-				for (m = i - 1; m <= i + 1; m++)
-					for (n = j - 1; n <= j + 1; n++)
-						if ((m == i && (j == -1 || j == 1))
-							|| (n == j && (i == -1 || i == 1)))
-						{
-							grid[m][n] += 1;
-							if (grid[m][n] > 3)
-								flag = 1;
-						}
+				grid1[i][j] -= 4;
+				for (m = (i - 1); m < (i + 2); m++)
+					for (n = (j - 1); n < (j + 2); n++)
+						if ((m >= 0) && (m < 3) && (n >= 0) && (n < 3))
+							if (((m == i) && ((n == (j - 1)) || (n == (j + 1))))
+								|| ((n == j) && ((m == (i - 1)) || (m == (i + 1)))))
+								ga[m][n]++;
 			}
+	return (sum(grid1, ga));
+}
+
+/**
+* sum- func
+* @grid1: int **
+* @grid2: int **
+* Return: int
+*/
+int sum(int grid1[3][3], int grid2[3][3])
+{
+	int flag, i, j;
+
+	flag = 0;
+	for (i = 0; i< 3; i++)
+		for (j = 0; j < 3; j++)
+		{
+			grid1[i][j] += grid2[i][j];
+			if (grid1[i][j] > 3)
+				flag = 1;
+		}
 	return (flag);
 }
 
