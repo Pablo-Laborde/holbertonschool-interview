@@ -7,8 +7,7 @@
 */
 int is_palindrome(listint_t **head)
 {
-	int rv;
-	listint_t **ph, *aux = *head;
+	listint_t **ph;
 
 	ph = &(*head);
 	return (ch(*head, ph));
