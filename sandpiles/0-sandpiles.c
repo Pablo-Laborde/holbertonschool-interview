@@ -9,7 +9,7 @@
 */
 void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 {
-	int i, j, flag, nf;
+	int flag, nf;
 
 	flag = sum(grid1, grid2);
 	while (flag)
