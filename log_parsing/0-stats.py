@@ -9,11 +9,12 @@ sc = [200, 301, 400, 401, 403, 404, 405, 500]
 scdic = {**{key: 0 for key in sc}}
 fsdic = {'fs': 0}
 
+
 def sigint_func(sig, frame):
     """W happens when ctrl + c."""
     print(f"File size: {fsdic['fs']}")
-    for key, value in (sorted(scdic.items(),\
-        key=lambda item: item[1], reverse=True)):
+    for key, value in (sorted(scdic.items(), key=lambda item: item[1],
+                              reverse=True)):
         if (value):
             print(f"{key}: {value}")
     exit(0)
@@ -31,7 +32,7 @@ while (True):
     if (counter == 10):
         counter = 0
         print(f"File size: {fsdic['fs']}")
-        for key, value in (sorted(scdic.items(),\
-            key=lambda item: item[1], reverse=True)):
+        for key, value in (sorted(scdic.items(), key=lambda item: item[1],
+                                  reverse=True)):
             if (value):
                 print(f"{key}: {value}")
