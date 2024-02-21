@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" documentation """
+"""Reads input, makes some stats."""
 
 import sys
 import signal
@@ -10,7 +10,7 @@ scdic = {**{key: 0 for key in sc}}
 fsdic = {'fs': 0}
 
 def sigint_func(sig, frame):
-    """ function when ctrl + c """
+    """W happens when ctrl + c."""
     print(f"File size: {fsdic['fs']}")
     for key, value in (sorted(scdic.items(),\
         key=lambda item: item[1], reverse=True)):
