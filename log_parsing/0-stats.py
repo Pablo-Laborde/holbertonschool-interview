@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Reads input, makes some stats."""
+"""
+Reads input, makes some stats.
+"""
 
 import sys
 import signal
@@ -11,7 +13,9 @@ fsdic = {'fs': 0}
 
 
 def sigint_func(sig, frame):
-    """W happens when ctrl + c."""
+    """
+    W happens when ctrl + c.
+    """
     print(f"File size: {fsdic['fs']}")
     for key, value in (sorted(scdic.items(), key=lambda item: item[1],
                               reverse=True)):
