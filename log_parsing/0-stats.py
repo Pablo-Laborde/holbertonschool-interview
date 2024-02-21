@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 Reads input, makes some stats.
+
 some more words
 """
 
@@ -17,6 +18,7 @@ fsdic = {'fs': 0}
 def sigint_func(sig, frame):
     """
     W happens when ctrl + c.
+
     some more words
     """
     print(f"File size: {fsdic['fs']}")
