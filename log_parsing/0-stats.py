@@ -5,8 +5,8 @@ some more words
 """
 
 
-import sys
 import signal
+import sys
 
 
 sc = [200, 301, 400, 401, 403, 404, 405, 500]
