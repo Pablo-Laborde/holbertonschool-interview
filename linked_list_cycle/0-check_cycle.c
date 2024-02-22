@@ -8,17 +8,13 @@
 */
 int check_cycle(listint_t *list)
 {
-	int rv = 0;
-	listint_t* aux = list;
+	listint_t* snake_head = list, snake_tail = list;
 
-	while (aux)
+	while (snake_head)
 	{
-		if (aux->next == list)
-		{
-			rv = 1;
-			break;
-		}
-		aux = aux->next;
+		snake_head = snake_head->next;
+		if (snake_head == snake_tail)
+			return (1);
 	}
-	return (rv);
+	return (0);
 }
