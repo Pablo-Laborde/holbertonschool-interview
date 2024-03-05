@@ -12,6 +12,14 @@ def validUTF8(data):
     for ec in data:
         res *= ((ec & fo == fo) or (ec & th == th) or
                 (ec & tw == tw) or (ec & on != on))
+        #print(" ", ec)
+        #print("Four : ", bin((ec & fo)), (ec & fo == fo))
+        #print("Three: ", bin((ec & th)), (ec & th == th))
+        #print("Two  : ", bin((ec & tw)), (ec & tw == tw))
+        #print("One  : ", bin((ec & on)), (ec & on != on))
+        #print("       ", bin(ec))
+        #print(((ec & fo == fo) or (ec & th == th) or (ec & tw == tw) or (ec & on != on)))
+        #print()
     if (res):
         return (True)
     else:

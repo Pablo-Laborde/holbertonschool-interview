@@ -1,0 +1,3306 @@
+  65
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1000001
+True
+
+True
+--------------
+
+  80
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1010000
+True
+
+  121
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1111001
+True
+
+  116
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1110100
+True
+
+  104
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101000
+True
+
+  111
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101111
+True
+
+  110
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101110
+True
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  105
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101001
+True
+
+  115
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1110011
+True
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  99
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1100011
+True
+
+  111
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101111
+True
+
+  111
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101111
+True
+
+  108
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101100
+True
+
+  33
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100001
+True
+
+True
+--------------
+
+  229
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11100101
+False
+
+  65
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1000001
+True
+
+  127
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1111111
+True
+
+  256
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000000
+True
+
+False
+--------------
+
+  467
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b111010011
+False
+
+  133
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000101
+False
+
+  108
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101100
+True
+
+False
+--------------
+
+  240
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11110000
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  128
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000000
+False
+
+  167
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100111
+False
+
+False
+--------------
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  180
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  151
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010111
+False
+
+  176
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110000
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  130
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000010
+False
+
+  176
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  147
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010011
+False
+
+  164
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100100
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  128
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  160
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100000
+False
+
+  149
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010101
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  147
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010011
+False
+
+  164
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100100
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  132
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  158
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011110
+False
+
+  144
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  161
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100001
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  176
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110000
+False
+
+  155
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011011
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  149
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010101
+False
+
+  132
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000100
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  147
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010011
+False
+
+  164
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100100
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  158
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011110
+False
+
+  133
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000101
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  164
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100100
+False
+
+  46
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101110
+True
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  178
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110010
+False
+
+  171
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10101011
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  178
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110010
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  167
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100111
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  158
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011110
+False
+
+  144
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  165
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100101
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  145
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010001
+False
+
+  144
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  178
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110010
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  167
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100111
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  158
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011110
+False
+
+  144
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  161
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100001
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  163
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100011
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  150
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010110
+False
+
+  180
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110100
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  167
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100111
+False
+
+  132
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  185
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111001
+False
+
+  132
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000100
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  138
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001010
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  167
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100111
+False
+
+  140
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001100
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  129
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000001
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  153
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011001
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  170
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10101010
+False
+
+  189
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111101
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  180
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110100
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  130
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000010
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  164
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100100
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  165
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100101
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  170
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10101010
+False
+
+  189
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111101
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  161
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100001
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  176
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110000
+False
+
+  137
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001001
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  164
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100100
+False
+
+  40
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101000
+True
+
+  115
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1110011
+True
+
+  104
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101000
+True
+
+  105
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101001
+True
+
+  102
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1100110
+True
+
+  116
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1110100
+True
+
+  41
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101001
+True
+
+  46
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101110
+True
+
+  10
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1010
+True
+
+  10
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1010
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  164
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100100
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  165
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100101
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  170
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10101010
+False
+
+  189
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111101
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  161
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100001
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  110
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101110
+True
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  185
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111001
+False
+
+  132
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000100
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  138
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001010
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  148
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010100
+False
+
+  132
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000100
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  138
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001010
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  149
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010101
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  138
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001010
+False
+
+  148
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  234
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101010
+False
+
+  178
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110010
+False
+
+  131
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000011
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  128
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  112
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1110000
+True
+
+  111
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101111
+True
+
+  119
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1110111
+True
+
+  40
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101000
+True
+
+  50
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b110010
+True
+
+  44
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101100
+True
+
+  110
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101110
+True
+
+  41
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101001
+True
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  161
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100001
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  160
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100000
+False
+
+  149
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010101
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  130
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000010
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  151
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010111
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  133
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000101
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  149
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010101
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  138
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001010
+False
+
+  148
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  234
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101010
+False
+
+  178
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110010
+False
+
+  131
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000011
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  161
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100001
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  160
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100000
+False
+
+  149
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010101
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  144
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010000
+False
+
+  169
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10101001
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  164
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100100
+False
+
+  46
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101110
+True
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  153
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011001
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  170
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10101010
+False
+
+  189
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111101
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  161
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100001
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  110
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101110
+True
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  185
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111001
+False
+
+  132
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000100
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  138
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001010
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  148
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010100
+False
+
+  132
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000100
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  138
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001010
+False
+
+  184
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  149
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010101
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  138
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001010
+False
+
+  148
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  234
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101010
+False
+
+  178
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110010
+False
+
+  131
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000011
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  128
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000000
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  112
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1110000
+True
+
+  111
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101111
+True
+
+  119
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1110111
+True
+
+  40
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101000
+True
+
+  50
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b110010
+True
+
+  44
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101100
+True
+
+  110
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b1101110
+True
+
+  41
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101001
+True
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  165
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100101
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  234
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101010
+False
+
+  179
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110011
+False
+
+  177
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110001
+False
+
+  237
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101101
+False
+
+  149
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010101
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  138
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001010
+False
+
+  148
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  234
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101010
+False
+
+  178
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10110010
+False
+
+  131
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10000011
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  188
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10111100
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  161
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100001
+False
+
+  156
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011100
+False
+
+  32
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b100000
+True
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  160
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100000
+False
+
+  149
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010101
+False
+
+  236
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101100
+False
+
+  157
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011101
+False
+
+  152
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10011000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  144
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10010000
+False
+
+  169
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10101001
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  136
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001000
+False
+
+  235
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b11101011
+False
+
+  139
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10001011
+False
+
+  164
+Four :  0b10000000 False
+Three:  0b10000000 False
+Two  :  0b10000000 False
+One  :  0b10000000 False
+        0b10100100
+False
+
+  46
+Four :  0b0 False
+Three:  0b0 False
+Two  :  0b0 False
+One  :  0b0 True
+        0b101110
+True
+
+False
+--------------
+
