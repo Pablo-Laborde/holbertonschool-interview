@@ -15,6 +15,7 @@
 	int slide_line(int *line, size_t size, int direction);
 	void sl(int *line, size_t size);
 	void sr(int *line, size_t size);
+	void slider(int *line, size_t size, size_t pr, size_t a, size_t add);
 
 
 #endif
