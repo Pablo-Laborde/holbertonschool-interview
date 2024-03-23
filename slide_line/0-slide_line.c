@@ -32,9 +32,9 @@ void sl(int *line, size_t size)
 
 	while (a < size)
 	{
-		while ((line[a] == 0) && (a < size - 1))
+		while ((line[a] == 0) && (a < size))
 			a++;
-		if (line[a])
+		if ((a < size) && line[a])
 		{
 			if (pr != a)
 				if (line[pr])
@@ -74,7 +74,7 @@ void sr(int *line, size_t size)
 	{
 		while ((line[a] == 0) && (a < size))
 			a--;
-		if (line[a])
+		if ((a < size) && line[a])
 		{
 			if (pr != a)
 				if (line[pr])
