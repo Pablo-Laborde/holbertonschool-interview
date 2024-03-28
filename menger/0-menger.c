@@ -2,7 +2,7 @@
 
 
 /**
-* merger- function
+* menger- function
 * @level: int
 * Return: void
 */
@@ -37,9 +37,7 @@ int valid(int level, int i, int j)
 {
 	int ns, ft, st;
 
-	if (!level)
-		return (1);
-	else
+	if (level)
 	{
 		ns = nsize(level);
 		ft = ns / 3;
@@ -49,6 +47,7 @@ int valid(int level, int i, int j)
 		else
 			return (valid(level - 1, i % ft, j % ft));
 	}
+	return (1);
 }
 
 
