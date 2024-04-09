@@ -11,6 +11,8 @@ avl_t *sorted_array_to_avl(int *array, size_t size)
 {
 	avl_t *root = NULL;
 
+	if (!array)
+		return (NULL);
 	root = make_avl(array, NULL, 0, size - 1);
 	return (root);
 }
