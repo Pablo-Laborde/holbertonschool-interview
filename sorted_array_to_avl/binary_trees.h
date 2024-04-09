@@ -32,8 +32,7 @@
 	avl_t *sorted_array_to_avl(int *array, size_t size);
 	avl_t *make_avl(int *array, avl_t *parent, size_t b, size_t e);
 
-/*
-	/* print_tree.c * /
+/* print_tree.c
 		static int print_t(const binary_tree_t *tree, int offset, int depth, char **s);
 		static size_t _height(const binary_tree_t *tree);
 		void binary_tree_print(const binary_tree_t *tree);
