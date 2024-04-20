@@ -32,7 +32,8 @@ skiplist_t *get_prev(skiplist_t *list, int value)
 
 	if (a1)
 	{
-		printf("Value checked at index [%ld] = [%d]\n", a1->index, a1->n);
+		if (a1->index != 0)
+			printf("Value checked at index [%ld] = [%d]\n", a1->index, a1->n);
 		if ((a1->express) && (a1->express->n < value))
 			return (get_prev(a1->express, value));
 		else
