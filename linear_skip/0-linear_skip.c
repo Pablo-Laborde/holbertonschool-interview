@@ -35,18 +35,20 @@ skiplist_t *get_prev(skiplist_t *list, int value)
 		if (a1->index != 0)
 			printf("Value checked at index [%ld] = [%d]\n", a1->index, a1->n);
 		if ((a1->express) && (a1->express->n < value))
+		{
 			return (get_prev(a1->express, value));
+		}
 		else
 		{
 			a2 = a1;
 			if (a2->express)
-				a2 = a2->express;
-			else
 			{
-				while (a2->next)
-					a2 = a2->next;
+				a2 = a2->express;
 				printf("Value checked at index [%ld] = [%d]\n", a2->index, a2->n);
 			}
+			else
+				while (a2->next)
+					a2 = a2->next;
 			printf("Value found between indexes [%ld] and [%ld]\n"
 					, a1->index, a2->index);
 			return (a1);
