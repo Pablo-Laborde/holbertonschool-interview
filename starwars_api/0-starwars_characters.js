@@ -4,6 +4,7 @@ function get_sw_data(movie) {
 	request('https://swapi-api.hbtn.io/api/films/' , function (error, response, body) {
 		jo = JSON.parse(body);
 		index = 0;
+		movie = parseInt(movie);
 		if (movie <= 3)
 			movie += 3;
 		else if (movie <= 6)
