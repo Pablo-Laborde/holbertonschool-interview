@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const request = require('request');
 function get_sw_data(movie) {
 	request('https://swapi-api.hbtn.io/api/films/' , function (error, response, body) {
