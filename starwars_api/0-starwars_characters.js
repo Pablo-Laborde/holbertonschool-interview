@@ -12,12 +12,18 @@ function get_sw_data(movie) {
 		for (each in jo['results']) {
 			if (jo['results'][each]['episode_id'] == movie)
 				index = each;
-		}
-		for (each in jo['results'][index]['characters']) {
-			request(jo['results'][index]['characters'][each], function (error, response, body) {
+		};
+		jo['results'][index]['characters'].forEach(function(elem) {
+			request(elem, function (error, response, body) {
 				console.log(JSON.parse(body)['name']);
 			});
-		}
+		});
+		/*
+		for (i = 0; i < jo['results'][index]['characters'].length; i++) {
+			request(jo['results'][index]['characters'][i], function (error, response, body) {
+				console.log(JSON.parse(body)['name']);
+			});
+		};*/
 	});
 }
 
