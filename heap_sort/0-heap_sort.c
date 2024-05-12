@@ -17,8 +17,8 @@ void heap_sort(int *array, size_t size)
 * swap- func
 * @array: int *
 * @size: size_t
-* @p1: size_t
-* @p2: size_t
+* @end: size_t
+* @beg: size_t
 * Return: void
 */
 void swap(int *array, size_t size, size_t end, size_t beg)
