@@ -27,7 +27,8 @@ int advanced_binary(int *array, size_t size, int value)
 	printf("\n");
 	size--;
 	pos = size / 2;
-	if ((array[pos] == value) && !(flag = ((pos > 0) && (array[pos - 1] == value))))
+	flag = ((pos > 0) && (array[pos - 1] == value))
+	if ((array[pos] == value) && !flag)
 		return (pos);
 	if ((array[pos] < value) && !flag)
 	{
