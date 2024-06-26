@@ -29,5 +29,5 @@ listint_t *find_listint_loop(listint_t *head)
 		}
 		a = a->next;
 	}
-	return (head);
+	return (NULL);
 }
