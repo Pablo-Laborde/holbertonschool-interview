@@ -1,6 +1,4 @@
 /*Ex 0*/
-
-
 #include "binary_trees.h"
 
 
@@ -14,23 +12,34 @@ int heap_extract(heap_t **root)
 	binary_tree_t *node = NULL, *ln = NULL, *an = NULL;
 	int rv = 0;
 
-	if (!root)
+	if (!root || !(*root))
 		return (0);
 	node = *root;
-	if (!node)
-		return (0);
 	rv = node->n;
-	ln = gln(node);
-	an = ln->parent;
-	(an->right) ? (an->right = NULL) : (an->left = NULL);
-	ln->parent = NULL;
-	ln->right = node->right;
-	ln->right->parent = ln;
-	ln->left = node->left;
-	ln->left->parent = ln;
-	*root = ln;
+	if (node->right || node->left)
+	{
+		ln = gln(node);
+		if ((node->right != ln) && (node->left != ln))
+		{
+			an = ln->parent;
+			(an->right) ? (an->right = NULL) : (an->left = NULL);
+			ln->right = node->right;
+			ln->right->parent = ln;
+			ln->left = node->left;
+			ln->left->parent = ln;
+		}
+		else if (node->right == ln)
+		{
+			ln->left = node->left;
+			ln->left->parent = ln;
+		}
+		ln->parent = NULL;
+		*root = ln;
+		rbh(ln);
+	}
+	else
+		*root = NULL;
 	free(node);
-	rbh(ln);
 	return (rv);
 }
 
