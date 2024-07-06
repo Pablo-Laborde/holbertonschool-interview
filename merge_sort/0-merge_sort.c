@@ -10,17 +10,34 @@
 void merge_sort(int *array, size_t size)
 {
 	int *temp = NULL;
+
+	if (!array || (size < 1))
+		exit(1);
+	temp = malloc(sizeof(int) * size);
+	if (!temp)
+		exit(1);
+	msr(array, size, temp);
+	free(temp);
+}
+
+
+/**
+* msr- func
+* @array: int *
+* @size: size_t
+* @temp: int *
+* Return: void
+*/
+void msr(int *array, size_t size, int *temp)
+{
 	size_t pi = 0, pf = 0, pm = 0, mid = 0, i = 0;
 
-	if (array && (size > 1))
+	if (size > 1)
 	{
 		mid = size / 2;
 		merge_sort(array, mid);
 		merge_sort(array + mid, size - mid);
 
-		temp = malloc(sizeof(int) * size);
-		if (!temp)
-			exit(1);
 		printf("Merging...\n");
 		printf("[left]: ");
 		print_line(array, mid);
@@ -42,7 +59,6 @@ void merge_sort(int *array, size_t size)
 		}
 		for (; i < size; i++)
 			array[i] = temp[i];
-		free(temp);
 		printf("[Done]: ");
 		print_line(array, size);
 	}
