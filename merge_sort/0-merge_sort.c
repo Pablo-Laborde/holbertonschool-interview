@@ -35,8 +35,8 @@ void msr(int *array, size_t size, int *temp)
 	if (size > 1)
 	{
 		mid = size / 2;
-		merge_sort(array, mid);
-		merge_sort(array + mid, size - mid);
+		msr(array, mid, temp);
+		msr(array + mid, size - mid, temp);
 
 		printf("Merging...\n");
 		printf("[left]: ");
