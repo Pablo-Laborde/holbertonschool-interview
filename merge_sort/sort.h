@@ -8,10 +8,10 @@
 
 
 /* Functions */
-    void merge_sort(int *array, size_t size);
-    void msr(int *array, size_t size, int *temp);
-    void print_line(int *array, size_t size);
+	void merge_sort(int *array, size_t size);
+	void msr(int *array, size_t size, int *temp);
+	void print_line(int *array, size_t size);
 
-    void print_array(const int *array, size_t size);
+	void print_array(const int *array, size_t size);
 
 #endif
