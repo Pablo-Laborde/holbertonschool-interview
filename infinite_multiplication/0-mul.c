@@ -26,11 +26,11 @@ int main(int ac, char **av)
 		{
 			a = (av[1][i] - '0') * (av[2][j] - '0');
 			add_elem(list, a, lm + ln - i - j);
-			rr(list);
 		}
+	rr(list);
 	print_list(list);
 	free_list(list);
-	return (0);
+	return (EXIT_SUCCESS);
 }
 
 
