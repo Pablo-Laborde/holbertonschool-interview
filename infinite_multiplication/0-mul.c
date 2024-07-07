@@ -67,6 +67,7 @@ dt *create_list(int pos)
 void add_elem(dt *list, int num, int pos)
 {
 	if (num > 0)
+	{
 		if (list->pos > pos)
 			add_elem(list->next, num, pos);
 		else
@@ -74,6 +75,7 @@ void add_elem(dt *list, int num, int pos)
 			list->d += (num / 10);
 			list->next->d += (num % 10);
 		}
+	}
 }
 
 
