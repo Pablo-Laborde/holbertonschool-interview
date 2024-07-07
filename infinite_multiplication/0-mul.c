@@ -125,7 +125,7 @@ void free_list(dt *list)
 */
 void print_list(dt *list)
 {
-	while (list->d == 0)
+	while ((list->d == 0) && list->next)
 		list = list->next;
 	while (list)
 	{
@@ -146,7 +146,7 @@ int check_num(char *num)
 	int pos = 0;
 
 	for (; num[pos]; pos++)
-		if ((num[pos] < 48) || (57 < num[pos]))
+		if ((num[pos] < 48) || (num[pos] > 57))
 			return (0);
 	return (pos);
 }
