@@ -4,7 +4,6 @@
 
 def rain(walls):
     """Rain function."""
-    print(walls)
     le = len(walls)
     volume = 0
     w1 = 0
