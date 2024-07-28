@@ -27,13 +27,9 @@ typedef struct ht_s ht;
 
 	void radix_sort(int *array, size_t size);
 	int key_maker(int n, int lvl);
-	int sorted(int *array, size_t size);
-
-	/* Hash */
-		ht **create_hash();
-		void add_elem(ht **root, int n, int key);
-		void hash_to_array(ht **root, int *array);
-		void print_hash(ht **root);
+	ht **create_hash();
+	void add_elem(ht **root, int n, int key);
+	void hash_to_array(ht **root, int *array);
 
 
 #endif

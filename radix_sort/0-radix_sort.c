@@ -9,14 +9,14 @@
 */
 void radix_sort(int *array, size_t size)
 {
-	size_t pos = 0;
-	int lvl = 1, key = 0;
+	size_t pos = 0, i = 1;
+	int lvl = 1, key = 0, sorted = 0;
 	ht **root = NULL;
 
 	if (size > 2)
 	{
 		root = create_hash();
-		while (!sorted(array, size))
+		while (!sorted)
 		{
 			for (pos = 0; pos < size; pos++)
 			{
@@ -26,6 +26,9 @@ void radix_sort(int *array, size_t size)
 			lvl++;
 			hash_to_array(root, array);
 			print_array(array, size);
+			sorted = 1;
+			while (sorted && (i < size))
+				(array[i - 1] < array[i]) ? i++ : (sorted = 0);
 		}
 		free(root);
 	}
@@ -49,17 +52,73 @@ int key_maker(int n, int lvl)
 
 
 /**
-* sorted- func
-* @array: int *
-* @size: size_t
-* Return: int
+* create_hash- func
+* Return: ht **
 */
-int sorted(int *array, size_t size)
+ht **create_hash()
 {
-	size_t i = 1;
-	int rv = 1;
+	int i = 0;
+	ht **root = NULL;
 
-	while (rv && (i < size))
-		(array[i - 1] < array[i]) ? i++ : (rv = 0);
-	return (rv);
+	root = malloc(sizeof(ht *) * 10);
+	if (!root)
+		exit(1);
+	for (; i < 10; i++)
+		root[i] = NULL;
+	return (root);
+}
+
+
+/**
+* add_elem- func
+* @root: ht **
+* @n: int
+* @key: int
+* Return: void
+*/
+void add_elem(ht **root, int n, int key)
+{
+	ht *node = NULL, *pos = NULL;
+
+	node = malloc(sizeof(ht));
+	if (!node)
+		exit(1);
+	node->next = NULL;
+	node->n = n;
+	pos = root[key];
+	if (pos)
+	{
+		while (pos->next)
+			pos = pos->next;
+		pos->next = node;
+	}
+	else
+		root[key] = node;
+}
+
+
+/**
+* pop_elem- func
+* @root: ht **
+* @array: int *
+* Return: void
+*/
+void hash_to_array(ht **root, int *array)
+{
+	int pos = 0, i = 0;
+	ht *elem = NULL, *aux = NULL;
+
+	for (; i < 10; i++)
+	{
+		elem = root[i];
+		while (elem)
+		{
+			array[pos] = elem->n;
+			aux = elem;
+			elem = elem->next;
+			pos++;
+			free(aux);
+		}
+		root[i] = NULL;
+	}
 }
