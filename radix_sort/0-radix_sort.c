@@ -99,7 +99,7 @@ void add_elem(ht **root, int n, int key)
 
 
 /**
-* pop_elem- func
+* hash_to_array- func
 * @root: ht **
 * @array: int *
 * Return: void
