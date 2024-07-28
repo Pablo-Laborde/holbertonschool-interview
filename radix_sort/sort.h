@@ -8,10 +8,9 @@
 
 
 /**
-* struct- ht_s
-* @nd: ht_s *
-* @nn: ht_s *
-* @d: int
+* struct ht_s- struct
+* @next: ht_s *
+* @n: int
 */
 struct ht_s
 {

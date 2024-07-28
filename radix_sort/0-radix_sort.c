@@ -13,7 +13,7 @@ void radix_sort(int *array, size_t size)
 	int lvl = 1, key = 0, sorted = 0;
 	ht **root = NULL;
 
-	if (size > 2)
+	if (size > 1)
 	{
 		root = create_hash();
 		while (!sorted)
@@ -27,8 +27,9 @@ void radix_sort(int *array, size_t size)
 			hash_to_array(root, array);
 			print_array(array, size);
 			sorted = 1;
-			while (sorted && (i < size))
-				(array[i - 1] < array[i]) ? i++ : (sorted = 0);
+			for (i = 1; sorted && (i < size); i++)
+				if (array[i - 1] > array[i])
+					sorted = 0;
 		}
 		free(root);
 	}
