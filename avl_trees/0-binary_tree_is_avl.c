@@ -26,7 +26,7 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 int avl_ch(const binary_tree_t *node)
 {
 	int lh = 0, rh = 0, dif = 0;
-	
+
 	if (!node)
 		return (0);
 	lh = avl_ch(node->left);
