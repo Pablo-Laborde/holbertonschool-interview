@@ -24,7 +24,7 @@ typedef struct binary_tree_s avl_t;
 
 /* Functions */
 	int binary_tree_is_avl(const binary_tree_t *tree);
-	int tree_height(binary_tree_t *node);
+	int avl_ch(binary_tree_t *node);
 
 
 #endif
