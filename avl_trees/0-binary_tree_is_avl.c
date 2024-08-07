@@ -8,13 +8,10 @@
 */
 int binary_tree_is_avl(const binary_tree_t *tree)
 {
-	int rv = 0;
-
-	if (tree)
-		rv = avl_ch(tree);
-	if (rv == -1)
+	if (avl_ch(tree) < 1)
 		return (0);
-	return (rv);
+	else
+		return (1);
 }
 
 
