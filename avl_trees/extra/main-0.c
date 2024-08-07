@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "binary_trees.h"
+#include "./../binary_trees.h"
+
+
+void binary_tree_print(const binary_tree_t *tree);
+binary_tree_t *binary_tree_node(const binary_tree_t *tree, int n);
 
 /**
  * basic_tree - Build a basic binary tree
@@ -31,7 +35,6 @@ int main(void)
 	int avl;
 
 	root = basic_tree();
-	printf("%d\n", tree_height(root));
 
 	binary_tree_print(root);
 	avl = binary_tree_is_avl(root);
