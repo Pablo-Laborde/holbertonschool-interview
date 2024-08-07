@@ -60,5 +60,5 @@ int sv(const binary_tree_t *node)
 	rv = sv(node->right);
 	if ((rv == -1) || (rv < node->n))
 		return (-1);
-	return (sv(nn->left));
+	return (sv(node->left));
 }
