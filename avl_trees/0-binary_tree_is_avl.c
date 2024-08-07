@@ -45,20 +45,20 @@ int avl_ch(const binary_tree_t *node)
 /**
 * sv- func
 * @node: binary_tree_t *
-* Return: binary_tree_t *
+* Return: int
 */
-binary_tree_t *sv(const binary_tree_t *node)
+int sv(const binary_tree_t *node)
 {
-	binary_tree_t *rn = NULL, *ln = NULL, *nn = node;
+	int rv = 0;
 
-	if (!nn->right && !nn->left)
-		return (nn);
-	if (!nn->right)
-		return (sv(nn->left));
-	if (!nn->left)
-		return (sv(nn->right));
-	rn = sv(nn->right);
-	if (!rn || (rn->n < nn->n))
-		return (NULL);
+	if (!node->right && !node->left)
+		return (node->n);
+	if (!node->right)
+		return (sv(node->left));
+	if (!node->left)
+		return (sv(node->right));
+	rv = sv(node->right);
+	if ((rv == -1) || (rv < node->n))
+		return (-1);
 	return (sv(nn->left));
 }
