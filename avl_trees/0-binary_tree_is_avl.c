@@ -10,8 +10,9 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 {
 	if (avl_ch(tree) < 1)
 		return (0);
-	else
-		return (1);
+	if (!sv(tree))
+		return (0);
+	return (1);
 }
 
 
@@ -38,4 +39,26 @@ int avl_ch(const binary_tree_t *node)
 	if ((dif > -2) && (dif < 2))
 		return (((rh > lh) ? (rh + 1) : (lh + 1)));
 	return (-1);
+}
+
+
+/**
+* sv- func
+* @node: binary_tree_t *
+* Return: binary_tree_t *
+*/
+binary_tree_t *sv(binary_tree_t *node)
+{
+	binary_tree_t *rn = NULL, *ln = NULL;
+
+	if (!node->right && !node->left)
+		return (node);
+	if (!node->right)
+		return (sv(node->left));
+	if (!node->left)
+		return (sv(node->right));
+	rn = sv(node->right);
+	if (!rn || (rn->n < node->n))
+		return (NULL);
+	return (sv(node->left));
 }
