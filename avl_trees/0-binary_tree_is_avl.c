@@ -49,16 +49,16 @@ int avl_ch(const binary_tree_t *node)
 */
 binary_tree_t *sv(const binary_tree_t *node)
 {
-	binary_tree_t *rn = NULL, *ln = NULL;
+	binary_tree_t *rn = NULL, *ln = NULL, *nn = node;
 
-	if (!node->right && !node->left)
-		return (node);
-	if (!node->right)
-		return (sv(node->left));
-	if (!node->left)
-		return (sv(node->right));
-	rn = sv(node->right);
-	if (!rn || (rn->n < node->n))
+	if (!nn->right && !nn->left)
+		return (nn);
+	if (!nn->right)
+		return (sv(nn->left));
+	if (!nn->left)
+		return (sv(nn->right));
+	rn = sv(nn->right);
+	if (!rn || (rn->n < nn->n))
 		return (NULL);
-	return (sv(node->left));
+	return (sv(nn->left));
 }
