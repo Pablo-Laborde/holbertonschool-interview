@@ -29,6 +29,7 @@ typedef struct binary_tree_s avl_t;
 	int binary_tree_is_avl(const binary_tree_t *tree);
 	int avl_ch(const binary_tree_t *node);
 	int sv(const binary_tree_t *node);
+	int bv(const binary_tree_t *node);
 
 
 #endif
