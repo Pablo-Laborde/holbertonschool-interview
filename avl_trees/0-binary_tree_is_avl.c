@@ -10,7 +10,7 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 {
 	if (avl_ch(tree) < 1)
 		return (0);
-	if (!sv(tree))
+	if (sv(tree) == -1)
 		return (0);
 	return (1);
 }
