@@ -58,7 +58,7 @@ int sv(const binary_tree_t *node)
 	if (!node->left)
 		return (sv(node->right));
 	rv = sv(node->right);
-	if ((rv == -1) || (rv < node->n))
+	if ((rv == -1) || (rv <= node->n))
 		return (-1);
 	return (sv(node->left));
 }
