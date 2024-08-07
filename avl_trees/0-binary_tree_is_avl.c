@@ -23,7 +23,7 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 * @node: binary_tree_t *
 * Return: int
 */
-int avl_ch(binary_tree_t *node)
+int avl_ch(const binary_tree_t *node)
 {
 	int lh = 0, rh = 0, dif = 0;
 	
