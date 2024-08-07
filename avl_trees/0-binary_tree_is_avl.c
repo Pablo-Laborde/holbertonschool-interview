@@ -78,11 +78,11 @@ int bv(const binary_tree_t *node)
 	if (!node->right && !node->left)
 		return (node->n);
 	if (!node->right)
-		return (sv(node->left));
+		return (bv(node->left));
 	if (!node->left)
-		return (sv(node->right));
-	lv = sv(node->left);
+		return (bv(node->right));
+	lv = bv(node->left);
 	if ((lv == -1) || (lv >= node->n))
 		return (-1);
-	return (sv(node->right));
+	return (bv(node->right));
 }
