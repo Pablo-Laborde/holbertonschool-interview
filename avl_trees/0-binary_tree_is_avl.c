@@ -47,7 +47,7 @@ int avl_ch(const binary_tree_t *node)
 * @node: binary_tree_t *
 * Return: binary_tree_t *
 */
-binary_tree_t *sv(binary_tree_t *node)
+binary_tree_t *sv(const binary_tree_t *node)
 {
 	binary_tree_t *rn = NULL, *ln = NULL;
 
