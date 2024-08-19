@@ -1,9 +1,27 @@
 #!/usr/bin/python3
-"""Pascal Triangle."""
+"""
+0-pascal_triangle.py
+
+This module creates a pascal triangle.
+
+Functions:
+    - pascal_triangle: creates the mentioned triangle.
+
+Usage:
+    Import and use it.
+"""
 
 
 def pascal_triangle(n):
-    """Pascal Triangle function."""
+    """
+    Returns a Pascal Triangle
+
+    Args:
+        n: integer
+
+    Returns:
+        list: list of integers
+    """
     pt_arr = []
     if (n > 0):
         pt_arr.append([1])
