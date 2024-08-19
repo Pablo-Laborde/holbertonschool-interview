@@ -5,7 +5,7 @@
 This module creates a pascal triangle.
 
 Functions:
-    - pascal_triangle: creates the mentioned triangle.
+pascal_triangle: creates the mentioned triangle.
 
 Usage:
     Import and use it.
