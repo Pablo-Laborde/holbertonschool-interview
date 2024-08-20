@@ -38,3 +38,10 @@ def pascal_triangle(n):
                 lvl.append(aux)
             pt_arr.append(lvl)
     return pt_arr
+
+
+if __name__ == "__main__":
+    """
+    Testing main
+    """
+    print_triangle(pascal_triangle(5))
