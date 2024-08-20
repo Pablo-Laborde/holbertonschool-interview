@@ -16,6 +16,7 @@ Usage:
 
 def pascal_triangle(n):
     """pascal_triangle
+    name: pascal_triangle
     Returns a Pascal Triangle
 
     Args:
