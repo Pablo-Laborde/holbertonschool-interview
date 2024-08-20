@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""pascal_triangle
+"""
+0-pascal_triangle
+pascal_triangle
 0-pascal_triangle.py
 
 This module creates a pascal triangle.
