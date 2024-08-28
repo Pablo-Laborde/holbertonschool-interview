@@ -42,5 +42,9 @@ int main(void)
 
     TEST_MATCH("!H@o#l$b%e^r&t(o)n_", "!.@.#.$.%.^.&.(.)._");
 
+    TEST_MATCH("A", "/A/");
+    TEST_MATCH("A", "");
+    TEST_MATCH("", "A");
+
     return (EXIT_SUCCESS);
 }

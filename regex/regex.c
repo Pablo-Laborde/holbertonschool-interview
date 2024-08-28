@@ -11,13 +11,14 @@ int regex_match(char const *str, char const *pattern)
 {
 	int i = 0, rv = 0;
 
-	while (pattern[i])
+	do
 	{
 		rv = regex_match_rec(str, pattern + i);
 		if (rv)
 			break;
 		i++;
 	}
+	while (pattern[i]);
 	return (rv);
 }
 
