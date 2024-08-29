@@ -17,8 +17,7 @@ int regex_match(char const *str, char const *pattern)
 		if (rv)
 			break;
 		i++;
-	}
-	while (pattern[i]);
+	} while (pattern[i]);
 	return (rv);
 }
 

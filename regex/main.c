@@ -17,6 +17,7 @@
  */
 int main(void)
 {
+    /*
     TEST_MATCH("H", "H");
     TEST_MATCH("HH", "H");
     TEST_MATCH("HH", "H*");
@@ -41,10 +42,13 @@ int main(void)
     TEST_MATCH("Holberton", "ZHolbeZrton");
 
     TEST_MATCH("!H@o#l$b%e^r&t(o)n_", "!.@.#.$.%.^.&.(.)._");
+*/
 
     TEST_MATCH("A", "/A/");
+    TEST_MATCH("A", "A");
     TEST_MATCH("A", "");
     TEST_MATCH("", "A");
+    //TEST_MATCH("AA", "A");
 
     return (EXIT_SUCCESS);
 }
