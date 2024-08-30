@@ -18,7 +18,7 @@ int regex_match(char const *str, char const *pattern)
 	if (spec_cases(str, pattern) == 2)
 		return (1);
 	if (str[0])
-		while (pattern[i] && (pattern[i] != str[0]))
+		while (pattern[i] && (pattern[i] != str[0]) && (pattern[i] != '.'))
 			i++;
 	else
 	{
