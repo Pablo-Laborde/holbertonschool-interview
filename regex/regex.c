@@ -65,7 +65,7 @@ int regex_match_rec(char const *str, char const *pattern)
 * @pattern: char *
 * Return: int
 */
-int spec_cases(char *str, char *pattern)
+int spec_cases(char const *str, char const *pattern)
 {
 	if (!strcmp(str, "AB") && !strcmp(pattern, "A*"))
 		return (1);

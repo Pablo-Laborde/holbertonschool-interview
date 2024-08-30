@@ -8,7 +8,7 @@
 /* Functions */
 int regex_match(char const *str, char const *pattern);
 int regex_match_rec(char const *str, char const *pattern);
-int spec_cases(char *str, char *pattern);
+int spec_cases(char const *str, char const *pattern);
 
 
 #endif
