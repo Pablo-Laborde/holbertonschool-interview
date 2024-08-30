@@ -31,13 +31,13 @@ int regex_match_rec(char const *str, char const *pattern)
 	int a1 = 0;
 
 	if (pattern[0] == '.')
-		return (1 * regex_match(str + 1, pattern + 1));
+		return (1 * regex_match_rec(str + 1, pattern + 1));
 	if (pattern[0] == '*')
 	{
 		if (pattern[1] == '\0')
 			return (1);
-		a1 = regex_match(str, pattern + 1);
-		return ((!a1) ? (regex_match(str + 1, pattern)) : 1);
+		a1 = regex_match_rec(str, pattern + 1);
+		return ((!a1) ? (regex_match_rec(str + 1, pattern)) : 1);
 	}
 	if (!str[0] && !pattern[0])
 		return (1);
@@ -45,7 +45,7 @@ int regex_match_rec(char const *str, char const *pattern)
 		return (0);
 	else if (str[0] != pattern[0])
 		return (0);
-	return (regex_match(str + 1, pattern + 1));
+	return (regex_match_rec(str + 1, pattern + 1));
 }
 
 
