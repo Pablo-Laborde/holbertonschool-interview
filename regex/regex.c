@@ -17,6 +17,12 @@ int regex_match(char const *str, char const *pattern)
 	if (str[0])
 		while (pattern[i] && (pattern[i] != str[0]))
 			i++;
+	else
+	{
+		while (pattern[i] && pattern[i + 1])
+			i++;
+		return (pattern[i] == '*') ? 1 : 0;
+	}
 	return (regex_match_rec(str, pattern + i));
 }
 
