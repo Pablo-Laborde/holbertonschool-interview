@@ -57,6 +57,8 @@ int main(void)
     TEST_MATCH("", "A*");
     TEST_MATCH("", "");
     TEST_MATCH("A", "ABCDEFGHIJKLMNOPQRSTUVWXYZ*");
+    TEST_MATCH("A", "AB*C*D*E*F*G*H*I*J*K*L*M*N*O*P*Q*R*S*T*U*V*W*X*Y*Z*");
+    
     
 
 
