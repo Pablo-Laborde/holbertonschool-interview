@@ -51,7 +51,14 @@ int main(void)
     TEST_MATCH("", "A");
     TEST_MATCH("AA", "A");
     TEST_MATCH("A", "AA");
+    TEST_MATCH("BA", "A*");
+    TEST_MATCH("B", "A*");
+    TEST_MATCH("AB", "A*");
+    TEST_MATCH("", "A*");
+    TEST_MATCH("", "");
+    TEST_MATCH("A", "ABCDEFGHIJKLMNOPQRSTUVWXYZ*");
     
+
 
 /*
     printf("%s -> %s = %d\n", "A", "/A/", regex_match("A", "/A/"));
