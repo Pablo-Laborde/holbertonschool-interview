@@ -21,7 +21,9 @@ int regex_match(char const *str, char const *pattern)
 	{
 		while (pattern[i] && pattern[i + 1])
 			i++;
-		return (pattern[i] == '*') ? 1 : 0;
+		if (pattern[i] == '*')
+			return (1);
+		i = 0;
 	}
 	return (regex_match_rec(str, pattern + i));
 }
