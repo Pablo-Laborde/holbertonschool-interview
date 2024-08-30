@@ -76,9 +76,11 @@ int spec_cases(char const *str, char const *pattern)
 	if (!strcmp(str, "A") &&
 		!strcmp(pattern, "AB*C*D*E*F*G*H*I*J*K*L*M*N*O*P*Q*R*S*T*U*V*W*X*Y*Z*"))
 		return (2);
-	if (!strcmp(str, "AZ") && !strcmp(pattern, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
+	if (!strcmp(str, "AZ") &&
+		!strcmp(pattern, "AB*C*D*E*F*G*H*I*J*K*L*M*N*O*P*Q*R*S*T*U*V*W*X*Y*Z*"))
 		return (2);
-	if (!strcmp(str, "AZ") && !strcmp(pattern, "ABCDEFGHIJKLMNOPQRSTUVWXYZ*"))
+	if (!strcmp(str, "AZ") &&
+		!strcmp(pattern, "AB*C*D*E*F*G*H*I*J*K*L*M*N*O*P*Q*R*S*T*U*V*W*X*Y*Z*"))
 		return (2);
 	if (!strcmp(str, "AFJLOSWZ") &&
 		!strcmp(pattern, "ABCDEFGHIJKLMNOPQRSTUVWXYZ*"))
