@@ -32,7 +32,7 @@ int regex_match(char const *str, char const *pattern)
 			else
 				k++;
 		}
-		else if (pattern[i + j + k] == str[j])
+		else if (pattern[i + j + a] == str[j])
 			j++;
 		else
 		{
