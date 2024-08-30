@@ -51,6 +51,7 @@ int main(void)
     TEST_MATCH("", "A");
     TEST_MATCH("AA", "A");
     TEST_MATCH("A", "AA");
+    
 
 /*
     printf("%s -> %s = %d\n", "A", "/A/", regex_match("A", "/A/"));

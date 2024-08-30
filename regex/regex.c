@@ -13,7 +13,9 @@ int regex_match(char const *str, char const *pattern)
 
 	if (!str || !pattern)
 		return (0);
-	if (!str[0] || !pattern[0])
+	if (!str[0] && !pattern[0])
+		return (1);
+	if (!str[0])
 		return (0);
 	while (pattern[i])
 	{
@@ -27,7 +29,9 @@ int regex_match(char const *str, char const *pattern)
 		{
 			if (pattern[i + j + a + 1] == '\0')
 				return (1);
-			if (pattern[i + j + a + 1] == str[j + k])
+			if (pattern[i + j + a + 1] == '*')
+				a++;
+			else if (pattern[i + j + a + 1] == str[j + k])
 				a++;
 			else
 				k++;
