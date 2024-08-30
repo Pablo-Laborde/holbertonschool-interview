@@ -14,9 +14,8 @@ int regex_match(char const *str, char const *pattern)
 
 	if (!str || !pattern)
 		return (0);
-	if (str[0])
-		while (pattern[i] && (pattern[i] != str[0]))
-			i++;
+	while (pattern[i] && (pattern[i] != str[0]))
+		i++;
 	return (regex_match_rec(str, pattern + i));
 }
 
