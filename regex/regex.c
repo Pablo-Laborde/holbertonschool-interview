@@ -39,11 +39,11 @@ int regex_match_rec(char const *str, char const *pattern)
 		a1 = regex_match(str, pattern + 1);
 		return ((!a1) ? (regex_match(str + 1, pattern)) : 1);
 	}
-	if (!str[0] && !pattern[0] && printf("c1\n"))
+	if (!str[0] && !pattern[0])
 		return (1);
-	else if (!str[0] || !pattern[0] && printf("c2\n"))
+	else if (!str[0] || !pattern[0])
 		return (0);
-	else if (str[0] != pattern[0] && printf("c3\n"))
+	else if (str[0] != pattern[0])
 		return (0);
 	return (regex_match(str + 1, pattern + 1));
 }
