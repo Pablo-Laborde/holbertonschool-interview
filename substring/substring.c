@@ -11,10 +11,15 @@
 */
 int *find_substring(char const *s, char const **words, int nb_words, int *n)
 {
-	int *ssarr = NULL, *rarr = NULL, i = 0 , j = 0, c = 0;
+	int *ssarr = NULL, *rarr = NULL, i = 0 , j = 0, c = 0, len = 0;
 
 	ssarr = malloc(sizeof(int) * nb_words);
 	if (!ssarr)
+		exit(errno);
+	while (s[len])
+		len++;
+	rarr = malloc(sizeof(int) * len);
+	if (!rarr)
 		exit(errno);
 	while (s[i])
 	{
@@ -22,11 +27,8 @@ int *find_substring(char const *s, char const **words, int nb_words, int *n)
 			ssarr[j] = 0;
 		if (css(s + i, words, nb_words, ssarr))
 		{
+			rarr[c] = i;
 			c++;
-			rarr = realloc(rarr, c);
-			if (!rarr)
-				exit(errno);
-			rarr[c - 1] = i;
 		}
 		i++;
 	}
