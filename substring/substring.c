@@ -11,7 +11,7 @@
 */
 int *find_substring(char const *s, char const **words, int nb_words, int *n)
 {
-	int *ssarr = NULL, *rarr = NULL, i = 0 , j = 0, c = 0, len = 0;
+	int *ssarr = NULL, *rarr = NULL, i = 0, j = 0, c = 0, len = 0;
 
 	ssarr = malloc(sizeof(int) * nb_words);
 	if (!ssarr)
