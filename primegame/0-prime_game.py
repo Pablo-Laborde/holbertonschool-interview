@@ -4,7 +4,7 @@
 
 def isWinner(x, nums):
     """Is Winner function"""
-    if (x == 0):
+    if (x <= 0):
         return (None)
     d = {"Maria": 0, "Ben": 0}
     p = ["Maria", "Ben"]
